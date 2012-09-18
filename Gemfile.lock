@@ -1,0 +1,9 @@
+GEM
+  specs:
+    term-ansicolor (1.0.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  term-ansicolor
