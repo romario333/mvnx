@@ -44,7 +44,7 @@ if opts[:help]
 
   maven_cmd = "mvn --help"
 else
-  maven_cmd = "mvn -e" # always show stack-traces (-e)
+  maven_cmd = "mvn"
 
   if unprocessed_args.size > 0
     maven_cmd << " " + unprocessed_args.join(" ")
